@@ -29,14 +29,14 @@ var models = [{
 var index = 0;
 var slaytCount = models.length;
 var settings = {
-    duration : '1000', //* 1 saniyeye bir resimleri geçer.
+    duration : '1500', //* 1 saniyeye bir resimleri geçer.
     random : false  //* randoma tamam deyip rastgele slayt yapmasını sağlarız.
 }
 var interval;
 
 
 
-init(settings);
+
 
 showSlide(index);
     //* fonksiyonu index'e göre çağırıyoruz.
@@ -99,7 +99,7 @@ function init(settings){
     },settings.duration)
 }
 
-
+init(settings);
 
 
 
